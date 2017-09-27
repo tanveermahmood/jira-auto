@@ -1,0 +1,30 @@
+assignee.lbl.issue = {\"locator\":\"xpath=//*[text()='Assignee:']/following-sibling::dd//*[contains(@data-user,'%s')]\", \"desc\":\"verify assignee\"}
+more.options.btn.issue = {\"locator\":\"css=#opsbar-operations_more\", \"desc\":\"button for more\"}
+logWork.btn.issue = {\"locator\":\"css=#log-work\", \"desc\":\"Log Work\"}
+
+timeSpent.input.worklog.issue = {\"locator\":\"css=#log-work-time-logged\", \"desc\":\"input for time spent\"}
+calendar.btn.worklog.issue = {\"locator\":\"css=#log-work-date-logged-icon\", \"desc\":\"calendar button\"}
+calendar.comp.worklog.issue = {\"locator\":\"css=[class='calendar active']\", \"desc\":\"calendar component\"}
+month.year.lbl.worklog.issue = {\"locator\":\"css=.title\", \"desc\":\"label for month and year\"}
+leftArrow.btn.worklog.issue = {\"locator\":\"css=.headrow>td:nth-child(2)\", \"desc\":\"left arrow for previous month\"}
+rightArrow.btn.worklog.issue = {\"locator\":\"css=.headrow>td:nth-child(4)\", \"desc\":\"right arrow for upcoming months\"}
+date.lst.worklog.issue = {\"locator\":\"css=td[class*='day day']\", \"desc\":\"date in calendar\"}
+hour.btn.worklog.issue = {\"locator\":\"css=.hour\", \"desc\":\"hours\"}
+minute.btn.worklog.issue = {\"locator\":\"css=.minute\", \"desc\":\"minutes\"}
+ampm.btn.worklog.issue = {\"locator\":\"css=.ampm\", \"desc\":\"ampm\"}
+workdescription.btn.worklog.issue = {\"locator\":\"css=[class='field-group comment-input'] #comment\", \"desc\":\"work description\"}
+log.submit.btn.worklog.issue = {\"locator\":\"css=#log-work-submit\", \"desc\":\"Submit button for Log work\"}
+log.cancel.btn.worklog.issue = {\"locator\":\"css=#log-work-cancel\", \"desc\":\"cancel button for Log Work\"}
+
+worklog.activity.btn.issue = {\"locator\":\"css=#worklog-tabpanel>strong\", \"desc\":\"Work log section \"}
+
+loggedWork.comp.lst.issue = {\"locator\":\"css=.actionContainer\", \"desc\":\"Loged work component\"}
+actionLinks.comp.loggedwork.issue = {\"locator\":\"css=div.action-links\", \"desc\":\"action links sub component \"}
+permalink.lnk.loggedwork.issue = {\"locator\":\"xpath=//a[contains(@title,'permanent link')]\", \"desc\":\"permalink \"}
+edit.lnk.loggedwork.issue = {\"locator\":\"xpath=//a[contains(@title,'Edit')]\", \"desc\":\"edit logged work\"}
+delete.lnk.loggedwork.issue = {\"locator\":\"xpath=//a[contains(@title,'Delete')]\", \"desc\":\"delete logged work \"}
+actionDetails.comp.loggedwork.issue = {\"locator\":\"css=div.action-details\", \"desc\":\"action details sub component\"}
+userDisplayName.lbl.loggedwork.issue = {\"locator\":\"css=[id*='worklogauthor']\", \"desc\":\"user display name\"}
+date.time.lbl.loggedwork.issue = {\"locator\":\"css=span.date\", \"desc\":\"date and time of logged work\"}
+actionBody.comp.loggedwork.issue = {\"locator\":\"css=div.action-body\", \"desc\":\"action body sub component \"}
+workDescription.lbl.loggedwork.issue = {\"locator\":\"css=dd.worklog-comment\", \"desc\":\"description of logged work \"}

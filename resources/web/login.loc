@@ -1,0 +1,3 @@
+username.input.loginPage = {\"locator\":\"css=#login-form-username\", \"desc\":\"Username\"}
+password.input.loginPage = {\"locator\":\"css=#login-form-password\", \"desc\":\"Password\"}
+login.btn.loginPage = {\"locator\":\"css=#login\", \"desc\":\"Login button\"}

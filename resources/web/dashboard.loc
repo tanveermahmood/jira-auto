@@ -1,0 +1,4 @@
+user.verify.dashboard = {\"locator\":\"xpath=//*[contains(@data-displayname,'%s')]\", \"desc\":\"User display name\"}
+search.bar.input.dashboard = {\"locator\":\"css=input.search\", \"desc\":\"search bar\"}
+logout.btn.dashboard = {\"locator\":\"css=#log_out\", \"desc\":\"Logout button\"}
+user.options.btn.dashboard = {\"locator\":\"css=#user-options\", \"desc\":\"user option dropdown\"}

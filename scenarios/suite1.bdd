@@ -1,0 +1,30 @@
+
+
+#SCENARIO: SampleTest
+#META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"],"dataFile":"resources/sample.csv"}
+	
+#	Sample bdd test '["${rno}","${name}","${city}","${country}"]'
+	
+#END
+
+#SCENARIO: SampleTest
+#META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"],"dataFile":"resources/intdata.csv"}
+	
+#	int Sample bdd test '["${one}","${two}","${three}"]'
+	
+#END
+
+#SCENARIO: SampleTest
+#META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"],"dataFile":["resources/mapdata.csv","resources/intdata.csv"]}
+	
+#	map Sample bdd test '{name:"${username}",loc:"${password}"}'
+#	int Sample bdd test '["${one}","${two}","${three}"]'
+	
+#END
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Login logout scenario","groups":["P1"]}
+	
+	int Sample bdd test '["${one}","${two}","${three}"]'
+	
+END
